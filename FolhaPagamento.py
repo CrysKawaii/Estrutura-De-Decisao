@@ -19,9 +19,9 @@ elif wage > 2500:
     fgts = wage * 11 / 100
 
 print(f'''
-Salário Bruto         :  R${wage:.2f}
-(-) IR                :  R${ir:.2f}
-(-) INSS              :  R${inss:.2f}
-FGTS                  :  R${fgts:.2f}
-Total de descontos    :  R${ir + inss:.2f}
-Salário líquido       :  R${wage - ir - inss:.2f}''')
+Salário Bruto   ({ear_hour} * {hour_month})                :  R${wage:.2f}
+(-) IR                   ({ir})              :  R${ir:.2f}
+(-) INSS                 (10%)               :  R${inss:.2f}
+FGTS                     (11%)               :  R${fgts:.2f}
+Total de descontos                           :  R${ir + inss:.2f}
+Salário líquido                              :  R${wage - ir - inss:.2f}'''.replace('.', ','))
