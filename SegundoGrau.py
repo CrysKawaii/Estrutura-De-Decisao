@@ -12,11 +12,11 @@ if delta < 0:
     quit()
 elif delta == 0:
     print('Delta é 0, logo só possui uma raiz real:')
-    raiz1 = ((-b) + sqrt(delta)) / 2 * a
-    print(raiz1)
+    root1 = ((-b) + sqrt(delta)) / 2 * a
+    print(root1)
 elif delta > 0:
     print('Delta positivo, duas raizes:')
-    raiz1 = ((-b) + sqrt(delta)) / 2 * a
-    raiz2 = ((-b) - sqrt(delta)) / 2 * a
-    print(raiz1)
-    print(raiz2)
+    root1 = ((-b) + sqrt(delta)) / 2 * a
+    root2 = ((-b) - sqrt(delta)) / 2 * a
+    print(root1)
+    print(root2)
